@@ -1,0 +1,4 @@
+Xxx.js
+======
+
+Module template
