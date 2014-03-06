@@ -1,0 +1,42 @@
+{
+  "name":           "uupaa.xxx.js",
+  "version":        "0.0.0",
+  "description":    "",
+  "url":            "https://github.com/uupaa/Xxx.js",
+  "keywords":       ["Xxx", "util", "uupaa"],
+  "repository": {
+    "type":         "git",
+    "url":          "https://github.com/uupaa/Xxx.js.git"
+  },
+  "scripts": {
+    "watch":        "node node_modules/uupaa.watch.js --verbose --action build ./lib/Xxx.js",
+    "build":        "node node_modules/uupaa.minify.js --keep --output ./lib/Xxx.min.js ./lib/Xxx.js",
+    "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html",
+    "lint":         "plato --title Xxx.js --jshint .jshintrc -d lint/plato lib/Xxx.js; open lint/plato/index.html"
+  },
+  "build": {
+    "all": {
+      "lib/Xxx.js":     ""
+    },
+    "node": {
+    },
+    "worker": {
+    },
+    "browser": {
+    }
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "uupaa.help.js":    "",
+    "uupaa.task.js":    "",
+    "uupaa.test.js":    "",
+    "uupaa.watch.js":   "",
+    "uupaa.minify.js":  ""
+  },
+  "lib":            "./lib/",
+  "main":           "./index.js",
+  "author":         "uupaa <uupaa.js@gmail.com>",
+  "license":        "MIT",
+  "contributors":   []
+}
