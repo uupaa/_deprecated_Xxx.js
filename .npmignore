@@ -6,5 +6,4 @@ lint/plato/*.html
 lib/*.min.js
 .vimrc*
 .git*
-source.map
 
