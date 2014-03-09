@@ -10,8 +10,8 @@
   },
   "scripts": {
     "watch":        "node node_modules/uupaa.watch.js --verbose --action build ./lib/Xxx.js",
-    "build":        "node node_modules/uupaa.minify.js --keep --option 'formatting pretty_print' --option 'create_source_map source.map' --module all --output ./lib/Foo.min.js",
-    "build-release":"node node_modules/uupaa.minify.js --module all --output ./lib/Foo.min.js",
+    "build":        "node node_modules/uupaa.minify.js --keep --option 'formatting pretty_print' --option 'create_source_map source.map' --module all --output ./lib/Xxx.min.js",
+    "build-release":"node node_modules/uupaa.minify.js --module all --output ./lib/Xxx.min.js",
     "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html",
     "lint":         "plato --title Xxx.js --jshint .jshintrc -d lint/plato lib/Xxx.js; open lint/plato/index.html"
   },
