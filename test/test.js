@@ -2,10 +2,10 @@ new Test().add([
         testXxx,
     ]).run().worker(function(err, test) {
         if (!err && typeof Xxx_ !== "undefined") {
-            var undo = Test.swap(Xxx, Xxx_);
+            var name = Test.swap(Xxx, Xxx_);
 
             new Test(test).run(function(err, test) {
-                Test.undo(undo);
+                Test.undo(name);
             });
         }
     });

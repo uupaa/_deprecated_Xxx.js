@@ -1,7 +1,7 @@
 Xxx.js
 =========
 
-Xxx.js is awesome.
+Module template.
 
 # Document
 
