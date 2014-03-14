@@ -1,11 +1,11 @@
-Xxx.js
+Xxx.ts
 =========
 
 Module template.
 
 # Document
 
-https://github.com/uupaa/Xxx.js/wiki/Xxx
+https://github.com/uupaa/Xxx.ts/wiki/Xxx
 
 # How to use
 
@@ -37,14 +37,14 @@ console.log( Xxx() );
     $ brew install closure-compiler
     $ brew install node
     $ npm install -g plato
-
+    $ npm install -g typescript
     ```
 
 2. Clone Repository and Install
 
     ```sh
-    $ git clone git@github.com:uupaa/Xxx.js.git
-    $ cd Xxx.js
+    $ git clone git@github.com:uupaa/Xxx.ts.git
+    $ cd Xxx.ts
     $ npm install
     ```
 

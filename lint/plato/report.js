@@ -1,0 +1,63 @@
+__report = {
+  "reports": [
+    {
+      "info": {
+        "file": "lib/Xxx.js",
+        "fileShort": "lib/Xxx.js",
+        "fileSafe": "lib_Xxx_js",
+        "link": "files/lib_Xxx_js/index.html"
+      },
+      "jshint": {
+        "messages": 3
+      },
+      "complexity": {
+        "aggregate": {
+          "line": 4,
+          "complexity": {
+            "sloc": {
+              "physical": 43,
+              "logical": 20
+            },
+            "cyclomatic": 7,
+            "halstead": {
+              "operators": {
+                "distinct": 11,
+                "total": 42,
+                "identifiers": [
+                  "__stripped__"
+                ]
+              },
+              "operands": {
+                "distinct": 31,
+                "total": 51,
+                "identifiers": [
+                  "__stripped__"
+                ]
+              },
+              "length": 93,
+              "vocabulary": 42,
+              "difficulty": 9.048387096774194,
+              "volume": 501.48552031842473,
+              "effort": 4537.635111268327,
+              "bugs": 0.16716184010614157,
+              "time": 252.09083951490706
+            },
+            "params": 3
+          }
+        },
+        "module": "lib/Xxx.js",
+        "maintainability": 69.29489066326433
+      }
+    }
+  ],
+  "summary": {
+    "total": {
+      "sloc": 43,
+      "maintainability": 69.29489066326433
+    },
+    "average": {
+      "sloc": 43,
+      "maintainability": "69.29"
+    }
+  }
+}

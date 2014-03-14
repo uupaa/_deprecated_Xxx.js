@@ -2,16 +2,16 @@
   "name":           "uupaa.xxx.js",
   "version":        "0.0.0",
   "description":    "",
-  "url":            "https://github.com/uupaa/Xxx.js",
+  "url":            "https://github.com/uupaa/Xxx.ts",
   "keywords":       ["Xxx", "util", "uupaa"],
   "repository": {
     "type":         "git",
-    "url":          "https://github.com/uupaa/Xxx.js.git"
+    "url":          "https://github.com/uupaa/Xxx.ts.git"
   },
   "scripts": {
     "watch":        "node node_modules/uupaa.watch.js --verbose --action build ./lib/Xxx.js",
-    "build":        "node node_modules/uupaa.minify.js --module all --output ./lib/Xxx.min.js --keep --option 'formatting pretty_print'",
-    "build-release":"node node_modules/uupaa.minify.js --module all --output ./lib/Xxx.min.js",
+    "build":        "tsc -m commonjs -d ./lib/Xxx.ts",
+    "build-release":"npm run build; node node_modules/uupaa.minify.js --module all --output ./lib/Xxx.min.js --simple",
     "test":         "NODE_ENV=production NODE_PATH=lib node --harmony test/index.node.js; open test/index.html",
     "lint":         "node lint/plato.js; open lint/plato/index.html"
   },
@@ -24,7 +24,7 @@
   "dependencies": {
   },
   "devDependencies": {
-    "uupaa.valid.js":   "",
+
     "uupaa.help.js":    "",
     "uupaa.task.js":    "",
     "uupaa.test.js":    "",
